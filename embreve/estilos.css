@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+/*------------------------------------------------------------------------------------------------------------
+CSS Reset By Eric Meyer
+
+http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+------------------------------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+/*------------------------------------------------------------------------------------------------------------
+CSS Reset By Eric Meyer
+
+http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+------------------------------------------------------------------------------------------------------------*/
+
+ html {overflow:scroll;}/*força exibir espaço da barra de rolagem*/
+
+body{
+	background:#FFF;
+	width:100%;
+	height:100%;
+	font-family:arial,sans;
+	padding:0;
+	margin:0;
+}
+/*img{width:100%;}*/
+#geral{
+	width:1020px;
+	float:left;
+	margin:-290px -510px;
+	height:580px;
+	position:absolute;
+	left:50%;
+	top:50%;
+}
+.pagina{
+	width:1020px;
+	height:auto;
+	float:left;
+
+}
+.pagina .mascote{
+	width:280px;
+	float:left;
+	height:416px;
+}
+.pagina .mascote img{
+	display:block;
+	float:left;
+	margin:120px 0 0 0;
+}
+.pagina .informacoes{
+	width:680px;
+	margin:20px 0 0 40px;
+	height:600px;
+	float:left;
+}
+.pagina .informacoes h1{
+	display:none;
+}
+
+.pagina .informacoes .logotipo{
+	float:left;
+	margin:0 auto;
+}
+.pagina .conteudo-principal{
+	clear:both;
+	width:100%;
+	float:left;
+}
+.pagina .conteudo-principal h2{
+	font-size:14px;
+	margin:60px 0 0 0;
+}
+.pagina .conteudo-principal p{}
+.pagina .conteudo-principal form{
+	margin:50px 0;
+	background:#8FBF4D;
+	padding:20px;
+	float:left;
+}
+.pagina .conteudo-principal form input[type='text'],
+.pagina .conteudo-principal form .email{
+	border:none;
+	height:60px;
+	font-size:24px;
+	color:#777777;
+	padding:0 0 0 20px;
+	width:470px;
+	float:left;
+}
+.pagina .conteudo-principal form input[type='submit'],
+.pagina .conteudo-principal form .aviseme{
+	background:#063559;
+	color:#fff;
+	border:none;	
+	height:60px;
+	font-size:24px;
+	cursor:pointer;
+	width:120px;
+	float:right;
+	padding:0;
+}
+.pagina .conteudo-principal form input[type='submit']:hover{
+	background:#D6432E;
+	color:#fff;
+}
+.pagina .ps{
+	margin:0;
+	clear:both;
+	float:left;
+	width:100%;
+}
+.pagina .ps h3{
+	font-weight:normal;
+}
+.pagina .ps h3 strong{}
+.pagina .ps .site{
+	display:block;
+	float:left;
+	clear:both;
+	height:40px;
+}
+.pagina .ps .site img.favicon{
+	width:26px;
+	margin:20px;
+	float:left;
+}
+.pagina .ps .site p.titulo{
+	margin:20px 0 0 0;
+	float:left;
+	display:block;
+	width:600px;
+	font-weight:bolder;	
+}
+.pagina .ps .site a{
+	float:left;
+	margin:0;
+	display:block;
+	width:600px;
+	text-decoration:underline;
+	color:#0a508b;
+	height:30px;
+}
+::selection {
+
+}
+::-moz-selection {
+	background:#D6432E;
+	color:#FFF;
+
+}
+
+.aviso{
+	float:left;
+	clear:both;
+	color:#AA0000;
+	margin:-30px 0 0 0;
+	width:100%;
+}
+p.assinatura{
+	float:right;
+	font-style:italic;
+}
+footer{
+	clear:both;
+	float:left;
+	display:block;
+	font-size:10px;
+}
+section.mail{
+	clear:both;
+}
+section.mail .email{
+	clear:both;
+	color:#D6432E;
+	background:url('mail-ico.png') no-repeat 0 center;
+	padding-left:20px;
+	text-align:center;
+}
+a:hover{
+	color:#D6432E;
+}
+.sucesso{
+	border:1px solid #FFF212;
+	margin:80px 0;
+	padding:20px;
+	background:#FDF9D4;
+}
