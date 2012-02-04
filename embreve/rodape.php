@@ -19,7 +19,7 @@
 */
 ?>
 		<footer class="copryright direitos">
-			<p>Desenvolvido com <a href="" title="Template Em Breve"/>Template Em Breve</a> por <a href="http://www.3birds.com.br">3Birds</a> sob <a href="http://www.gnu.org/licenses/gpl.txt" rel="license">GPL 3</a></p>
+			<p>Desenvolvido com <a href="https://github.com/teles/template-em-breve" title="Template em breve"/>Template em breve</a> por <a href="http://www.3birds.com.br">3Birds</a> sob <a href="http://www.gnu.org/licenses/gpl.txt" rel="license">GPL 3</a></p>
 		</footer>
 		</div>
 <?php // fecha geral ;?>
