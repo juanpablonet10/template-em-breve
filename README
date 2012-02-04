@@ -1,6 +1,6 @@
 "Template em breve" é um template html5 para sites em construção com funcionalidade de newsletter e envio de email para usuários que queiram se cadastrar para ficar sabendo da data de inauguração do site.
 
-## Características:
+Características:
 
 Design minimalista
 Utiliza HTML5 e CSS3
@@ -10,7 +10,7 @@ Utiliza PHPMailer como biblioteca para emails
 Facilmente customizável
 Licenciado sob GPL3
 
-## Créditos adicionais:
+Créditos adicionais:
 html5shim : biblioteca javascript para html5
 por remysharp disponível em http://code.google.com/p/html5shim/
 
